@@ -1,24 +1,23 @@
 <template>
-  <div>
-    <img class="img" src="./assets/logo.png">
-    <HelloWorld/>
-  </div>
+  <Add/>
+  <List/>
 </template>
 
 <script>
-  import HelloWorld from "./components/HelloWorld.vue"
+
+  import Add from './components/Add'
+  import List from './components/List'
 
   export default {
     name: 'App',
     components:{
-      HelloWorld
+      Add,
+      List
     }
+
   }
 </script>
 
 <style scoped>
-.img{
-  width: 800px;
-  height: 400px;
-}
+
 </style>
